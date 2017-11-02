@@ -25,7 +25,7 @@ class TabLink {
   }
 
   select() {
-    // select this link
+    this.element.classList.add('Tabs__link-selected'); // select this link
     // select the associated tab
   }
 
